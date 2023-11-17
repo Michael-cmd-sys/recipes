@@ -8,7 +8,7 @@
 body{
     background: azure;
     color: #999;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -35,6 +35,8 @@ header {
     flex-grow: 2;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
+    padding: 0.3rem;
 }
 
 footer {
@@ -42,6 +44,14 @@ footer {
     text-align: center;
 } 
 
+footer p a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer p a:hover {
+    color: #e3e64eb0;
+}
 main > article {
     box-shadow: 1px 1px 3px #111;
     margin-bottom: 0.5rem;
