@@ -61,3 +61,13 @@ main > article > p > a {
     text-decoration: none;
     color: #999;
 } 
+
+main > article > p > a:hover {
+    color: #e3e64eb0;
+} 
+
+main > article > img {
+    height: 70%;
+    width: 100%;
+    margin-bottom: 0.2rem;
+} 
